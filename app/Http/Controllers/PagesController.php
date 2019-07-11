@@ -13,7 +13,37 @@ class PagesController extends Controller
      */
     public function index()
     {
-        //
+        return view('pages.index');
+    }
+
+    public function article1()
+    {
+        return view('pages.siargao');
+    }
+
+    public function article2()
+    {
+        return view('pages.lechon');
+    }
+
+    public function article3()
+    {
+        return view('pages.dumparea');
+    }
+
+    public function article4()
+    {
+        return view('pages.bohol');
+    }
+
+    public function article5()
+    {
+        return view('pages.bajau');
+    }
+
+    public function article6()
+    {
+        return view('pages.tapioca');
     }
 
     /**
