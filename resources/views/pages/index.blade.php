@@ -1,43 +1,6 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-	<meta charset="UTF-8">
-	<!-- bootstrap css -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!-- original style css -->
-	<link rel="stylesheet" href="/css/style.css">
-	<!-- Fomt Awesome -->
-	<script src="https://kit.fontawesome.com/bc6897d422.js"></script>
+@extends('layout')
 
-	<title>taeblo</title>
-</head>
-<body>
-	<!-- ********** navbor ********** -->
-	<nav class="navbar navbar-expand-lg navbar-light">
-	  <a class="navbar-brand" href="#">Navbar</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
-		<!-- blog title -->
-		<div class="collapse navbar-collapse justify-content-center blog-title">
-			<a href=""><p>taeblo</p></a>
-		</div>
-
-	  <!-- sns link -->
-	  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-	    <ul class="navbar-nav">
-	      <li class="nav-item">
-	        <a class="nav-link" href="#"><i class="fab fa-instagram fa-2x"></i></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-	      </li>
-	    </ul>
-	  </div>
-
-	</nav>
-	<!-- ********** //navbar ********** -->
+@section('content')
 
 	<!-- ********** top image ********** -->
 	<figure id="top-image">
@@ -53,7 +16,7 @@
 					<div class="row">
 						<div class="card-deck">
 						   <article  class="card">
-						  		<a href="tapioca.html">
+						  		<a href="{{route('taeblo.article6')}}">
 							    <img src="img/tapioca.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
 							      <p class="card-text">大人気のタピオカはセブでも大人気。100ペソちょっとで飲めてしまう。</p>
@@ -62,7 +25,7 @@
 							   	</a>
 						  </article>
 						    <article  class="card">
-						  		<a href="bajau.html">
+						  		<a href="{{route('taeblo.article5')}}">
 							    <img src="img/bajau_night.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
 							      <p class="card-text">海の上で暮らすバジャウ族を訪れたら、足がすくんで仕方なかった。</p>
@@ -71,7 +34,7 @@
 							   	</a>
 						  </article>
 						   <article  class="card">
-						  		<a href="bohol.html">
+						  		<a href="{{route('taeblo.article4')}}">
 							    <img src="img/bohol_ocean.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
 							      <p class="card-text">弾丸でボホールへ行ってみたら、超充実した週末になった。Hard & Happy！</p>
@@ -85,7 +48,7 @@
 					<div class="row">
 						<div class="card-deck">
 						  <article  class="card">
-						  		<a href="dumparea.html">
+						  		<a href="{{route('taeblo.article3')}}">
 							    <img src="img/dump_area.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
 							      <p class="card-text">スタディツアーでゴミ山へ。</p>
@@ -94,7 +57,7 @@
 							   	</a>
 						  </article>
 						  <article  class="card">
-						  		<a href="lechon.html">
+						  		<a href="{{route('taeblo.article2')}}">
 							    <img src="img/lechon.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
 							      <p class="card-text">セブで有名。フィリピン伝統料理レチョン。House of Lechonで頂きました。</p>
@@ -132,10 +95,7 @@
 	</footer>
 	<!-- ********** //footer ********** -->
 
-	<!-- bootstrap js -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+@endsection
 
 </body>
 </html>
