@@ -19,7 +19,7 @@ Route::get('/','PagesController@index');
 /****************************************
 * article1 <siargao>
 *****************************************/
-Route::get('article1','PagesController@article1');
+Route::get('article1','PagesController@article1') ->name('taeblo.article1');
 Route::get('article2','PagesController@article2');
 Route::get('article3','PagesController@article3');
 Route::get('article4','PagesController@article4');

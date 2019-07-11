@@ -103,7 +103,7 @@
 							   	</a>
 						  </article>
 						  <article  class="card">
-						  		<a href="siargao.html">
+						  		<a href="{{route('taeblo.article1')}}">
 									<figure class="siargao_01">
 								 		<img src="img/siargao/cloud9_brigde.jpg" class="card-img-top" alt="siargao">
 								  	<p>siargao island</p>
