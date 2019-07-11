@@ -2,7 +2,7 @@
 
 @section('style')
 
-<link rel="stylesheet" href="/css/siargao.css">
+	<link rel="stylesheet" href="/css/siargao.css">
 
 @endsection
 
