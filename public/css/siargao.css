@@ -1,0 +1,90 @@
+/********** main photo **********/
+.main-photo {
+	width: 100%;
+}
+
+.main_photo_sia {
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 700px;
+}
+
+.main_photo_sia p {
+	position: absolute;
+	color: white;
+	font-family: 'Carily';
+	font-size: 100px;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/********** title **********/
+.title {
+	margin: 0 auto;
+}
+
+.article_title {
+	font-family: irohamaru-Medium;
+	font-size: 28px;
+	width: 700px;
+}
+
+.date_link {
+	color: gray;
+	font-size: 16px;
+	margin: 0 auto;
+	width: 700px;
+}
+
+/********** message **********/
+.main_content_message {
+	font-size: 17px;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 700px;
+
+}
+
+/********** conttent **********/
+#card-content {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 700px;
+}
+
+.card-title {
+	font-weight: bold;
+}
+
+.card-text-content {
+	font-size: 17px;
+}
+
+.card-photo img {
+	width: 650px;
+}
+
+figcaption {
+	background-color: white;
+}
+
+.surigao{
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.card-photo-suri img{
+	width: 320px
+}
+
+figure li {
+	display: inline-block;
+	padding: 2px;
+	width: 320px;
+
+
+}

@@ -1,0 +1,133 @@
+/*font design*/
+@font-face {
+	font-family: 'Carily';
+  src: url('font/Carily DEMO VERSION.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Worcestershire_Sauce_Press';
+  src: url("font/Worcestershire_Sauce_Press-Regular.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: 'irohamaru-Medium';
+  src: url("font/irohamaru-Medium.ttf") format('truetype');
+}
+
+/********** navbar **********/
+.navbar {
+	border-bottom: 3px solid #7DE7DD;
+	height: 50px;
+}
+
+.blog-title {
+	margin-left: 28%;
+}
+
+.blog-title a {
+	text-decoration: none;
+}
+
+nav p {
+	font-family: 'Worcestershire_Sauce_Press';
+	font-size: 35px;
+	margin: 0 auto;
+	padding: 3px;
+}
+
+/********** top image area **********/
+#top-image {
+	position: relative; /*相対配置*/
+	margin: 0;
+}
+
+#top-image p {
+	position: absolute; /*絶対配置*/
+	font-family: 'Carily';
+	font-size: 40px;
+	margin: 0;
+	top: 8%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#top-image img{
+	width: 100%;
+}
+
+figcaption {
+	background-color: #7DE7DD;
+	font-size: 14px;
+}
+
+/********** content **********/
+.content {
+	background-color: #7DE7DD;
+}
+
+.card-deck .card {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.card-text {
+	font-family: irohamaru-Medium;
+	height: 40px;
+}
+
+.date {
+	padding-top: 20px;
+	margin: 0;
+}
+
+article img {
+	width: 385px;
+	height: 268.5px;
+	object-fit: cover;
+
+
+}
+
+/*リンクの青文字変更*/
+article a {color: black;}
+article a:link {text-decoration: none;}
+article a:visited {text-decoration: none;}
+article a:hover {background: #FFDFFF; color: black; text-decoration: none;}
+article a:active {text-decoration: none;}
+
+/* article siargao */
+.siargao_01 {
+	position: relative;
+	margin: 0;
+}
+
+.siargao_01 p {
+	position: absolute;
+	color: white;
+	font-family: 'Carily';
+	font-size: 60px;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/********** footer **********/
+footer {
+	background-color: #FFDFFF;
+	font-weight: bold;
+	padding-bottom: 100px;
+}
+
+footer ul.pagenation{
+	margin: 0 auto;
+	padding: 40px 20px;
+	width: 160px;
+}
+
+.pagenation li{
+	display: inline;
+	color: gray;
+	padding: 0 5px;
+}
+
