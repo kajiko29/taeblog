@@ -134,10 +134,10 @@
 
 					    <figure class="card-photo text-center">
 					    	<img src="img/siargao/secret_spot.jpg">
-					    	<figcaption>乗り換えのフェリー乗り場</figcaption>
+					    	<figcaption>ホテル"Secret Spot"到着</figcaption>
 					    </figure>
 					    <p class="card-text-content">
-					    	ホテル到着。ホテルというかホステルという感じ。その名も『Secret spot』。
+					    	ホテル到着。ホテルというかホステルという感じ。その名も『Secret Spot』。
 					    	名前の通り、誰にも知られておらずトライシクルのおじさんも場所がわからなかったため、なかなかたどり着けなかった。
 					    </p>
 
@@ -147,11 +147,11 @@
 						    	<li><img src="img/siargao/h_balcony.jpg"></li>
 						    	<li><img src="img/siargao/h_beds.jpg"></li>
 						    </ul>
-					    	<figcaption>Secret spot</figcaption>
+					    	<figcaption>Secret Spot 内観</figcaption>
 					    </figure>
 					    <p class="card-text-content">
 					    	とてもおしゃれで清潔感もあり。欧米風の肌白ブロンド髪の人が多かった。かわいい犬もいっぱい。猫１匹。
-					    	WiFiは劇的に遅くほぼ使えない。さすが"Secret spot"。
+					    	WiFiは劇的に遅くほぼ使えない。さすが"Secret Spot"。
 					    </p>
 
 					   <!--  <a href="#" class="btn btn-primary">Go somewhere</a> -->
