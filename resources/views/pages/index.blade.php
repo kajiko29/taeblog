@@ -20,7 +20,7 @@
 							    <img src="img/tapioca.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
 							      <p class="card-text">大人気のタピオカはセブでも大人気。100ペソちょっとで飲めてしまう。</p>
-							      <p class="date"><small class="text-muted">2019.07.07</small></p>
+							      <p class="date"><small class="text-muted">2019.07.12</small></p>
 							    </div>
 							   	</a>
 						  </article>
@@ -29,7 +29,7 @@
 							    <img src="img/bajau_night.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
 							      <p class="card-text">海の上で暮らすバジャウ族を訪れたら、足がすくんで仕方なかった。</p>
-							      <p class="date"><small class="text-muted">2019.07.07</small></p>
+							      <p class="date"><small class="text-muted">2019.07.12</small></p>
 							    </div>
 							   	</a>
 						  </article>
@@ -38,7 +38,7 @@
 							    <img src="img/bohol_ocean.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
 							      <p class="card-text">弾丸でボホールへ行ってみたら、超充実した週末になった。Hard & Happy！</p>
-							      <p class="date"><small class="text-muted">2019.07.07</small></p>
+							      <p class="date"><small class="text-muted">2019.07.12</small></p>
 							    </div>
 							   	</a>
 						  </article>
@@ -52,7 +52,7 @@
 							    <img src="img/dump_area.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
 							      <p class="card-text">スタディツアーでゴミ山へ。</p>
-							      <p class="date"><small class="text-muted">2019.07.07</small></p>
+							      <p class="date"><small class="text-muted">2019.07.12</small></p>
 							    </div>
 							   	</a>
 						  </article>
@@ -61,7 +61,7 @@
 							    <img src="img/lechon.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
 							      <p class="card-text">セブで有名。フィリピン伝統料理レチョン。House of Lechonで頂きました。</p>
-							      <p class="date"><small class="text-muted">2019.07.07</small></p>
+							      <p class="date"><small class="text-muted">2019.07.12</small></p>
 							    </div>
 							   	</a>
 						  </article>
@@ -73,7 +73,7 @@
 								 	</figure>
 								  <div class="card-body">
 								    <p class="card-text">シャルガオ行ったら予想以上に楽しかった！</p>
-							      <p class="date"><small class="text-muted">2019.07.07</small></p>
+							      <p class="date"><small class="text-muted">2019.07.08</small></p>
 								  </div>
 									</a>
 						  </article>
