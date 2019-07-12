@@ -72,19 +72,22 @@ figcaption {
 	background-color: white;
 }
 
-.surigao{
+.sec-photos, .third_photos {
 	padding-left: 0;
 	margin-bottom: 0;
 }
 
-.card-photo-suri img{
+.card-photo-sec img{
 	width: 320px
+}
+
+.card-photo-third img{
+	width: 212px
 }
 
 figure li {
 	display: inline-block;
 	padding: 2px;
-	width: 320px;
 
 
 }
