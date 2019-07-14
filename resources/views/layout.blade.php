@@ -14,7 +14,16 @@
 
 	<title>taeblo</title>
 </head>
-<body>
+
+	{{-- ********** loading animation ********** --}}
+<div id="loading">
+	<div class="spinner-border" role="status">
+  	<span class="sr-only">Loading...</span>
+	</div>
+</div>
+
+	{{-- ******************** content ******************** --}}
+<div id="contents" class="hidden">
 	<!-- ********** navbor ********** -->
 	<nav class="navbar navbar-expand-lg navbar-light">
 	  <a class="navbar-brand" href="#"></a>
@@ -43,6 +52,9 @@
 	<!-- ********** //navbar ********** -->
 
 		@yield('content')
+</div>
+	{{-- loading animation js --}}
+	<script type="text/javascript" src="/js/loading.js"></script>
 
 	<!-- bootstrap js -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
