@@ -4,8 +4,8 @@
 
 	<!-- ********** top image ********** -->
 	<figure id="top-image">
-	  <img class="animated flipInY" src="img/laurencia-soesanto-C6juMckOwLs-unsplash.jpg" alt="top-image">
-	  <p class="animated flipInY delay-1s">Make life better!</p>
+	  <img class="animated fadeIn" src="img/laurencia-soesanto-C6juMckOwLs-unsplash.jpg" alt="top-image">
+	  <p class="animated bounceIn delay-1s">Make life better!</p>
 	  <figcaption style="color: gray; padding-left: 10px;">Photo by Laurencia Soesanto on Unsplash</figcaption>
 	</figure>
 	<!-- ********** //top image ********** -->
@@ -13,7 +13,7 @@
 	<!-- ********** content area ********** -->
 	<div class="content">
 			<div class="container">
-					<div class="row">
+					<div class="row" data-aos="fade-right">
 							<div class="card-deck">
 						   	<article  class="card">
 						  		<a href="{{route('taeblo.article6')}}">
@@ -45,7 +45,7 @@
 							</div>
 					</div>
 
-					<div class="row">
+					<div class="row" data-aos="fade-left">
 						<div class="card-deck">
 						  <article  class="card">
 						  		<a href="{{route('taeblo.article3')}}">
@@ -97,5 +97,3 @@
 
 @endsection
 
-</body>
-</html>

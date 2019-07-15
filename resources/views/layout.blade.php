@@ -8,11 +8,12 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<!-- animate css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
-	@yield('style')
-
+	<!-- aos css -->
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	<!-- Fomt Awesome -->
 	<script src="https://kit.fontawesome.com/bc6897d422.js"></script>
+
+	@yield('style')
 
 	<title>taeblo</title>
 </head>
@@ -28,7 +29,7 @@
 	{{-- ******************** content ******************** --}}
 	<div id="contents" class="hidden">
 		<!-- ********** navbor ********** -->
-		<nav class="navbar navbar-expand-lg navbar-light">
+		<nav class="navbar navbar-expand-lg navbar-light animated fadeInLeft">
 		  <a class="navbar-brand" href="#"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -57,8 +58,15 @@
 			@yield('content')
 
 	</div>
+
 	{{-- loading animation js --}}
 	<script type="text/javascript" src="/js/loading.js"></script>
+
+	<!-- aos js -->
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 	<!-- bootstrap js -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
