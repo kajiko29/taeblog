@@ -4,7 +4,7 @@
 
 	<!-- ********** top image ********** -->
 	<figure id="top-image">
-	  <img class="animated fadeIn" src="img/laurencia-soesanto-C6juMckOwLs-unsplash.jpg" alt="top-image">
+	  <img class="animated zoomInUp" src="img/laurencia-soesanto-C6juMckOwLs-unsplash.jpg" alt="top-image">
 	  <p class="animated bounceIn delay-1s">Make life better!</p>
 	  <figcaption style="color: gray; padding-left: 10px;">Photo by Laurencia Soesanto on Unsplash</figcaption>
 	</figure>
