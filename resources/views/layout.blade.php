@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- original style css -->
 	<link rel="stylesheet" href="/css/style.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 	@yield('style')
 
@@ -14,45 +16,47 @@
 
 	<title>taeblo</title>
 </head>
-
+<body>
 	{{-- ********** loading animation ********** --}}
-<div id="loading">
-	<div class="spinner-border" role="status">
-  	<span class="sr-only">Loading...</span>
+	<div id="loading">
+		<div class="spinner-border" role="status">
+	  	<span class="sr-only">Loading...</span>
+		</div>
 	</div>
-</div>
+	{{-- ********** //loading animation ********** --}}
 
 	{{-- ******************** content ******************** --}}
-<div id="contents" class="hidden">
-	<!-- ********** navbor ********** -->
-	<nav class="navbar navbar-expand-lg navbar-light">
-	  <a class="navbar-brand" href="#"></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+	<div id="contents" class="hidden">
+		<!-- ********** navbor ********** -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  <a class="navbar-brand" href="#"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
 
-		<!-- blog title -->
-		<div class="collapse navbar-collapse justify-content-center blog-title">
-			<a href="{{route('taeblo.index')}}"><p>taeblo</p></a>
-		</div>
+			<!-- blog title -->
+			<div class="collapse navbar-collapse justify-content-center blog-title">
+				<a href="{{route('taeblo.index')}}" ><p class="animated rubberBand delay-1s">taeblo</p></a>
+			</div>
 
-	  <!-- sns link -->
-	  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-	    <ul class="navbar-nav">
-	      <li class="nav-item">
-	        <a class="nav-link" href="#"><i class="fab fa-instagram fa-2x"></i></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-	      </li>
-	    </ul>
-	  </div>
+		  <!-- sns link -->
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><i class="fab fa-instagram fa-2x animated rubberBand"></i></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><i class="fab fa-facebook-square fa-2x animated rubberBand"></i></a>
+		      </li>
+		    </ul>
+		  </div>
 
-	</nav>
-	<!-- ********** //navbar ********** -->
+		</nav>
+		<!-- ********** //navbar ********** -->
 
-		@yield('content')
-</div>
+			@yield('content')
+
+	</div>
 	{{-- loading animation js --}}
 	<script type="text/javascript" src="/js/loading.js"></script>
 

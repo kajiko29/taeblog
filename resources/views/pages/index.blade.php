@@ -4,8 +4,8 @@
 
 	<!-- ********** top image ********** -->
 	<figure id="top-image">
-	  <img src="img/laurencia-soesanto-C6juMckOwLs-unsplash.jpg" alt="top-image">
-	  <p>Make life better!</p>
+	  <img class="animated flipInY" src="img/laurencia-soesanto-C6juMckOwLs-unsplash.jpg" alt="top-image">
+	  <p class="animated flipInY delay-1s">Make life better!</p>
 	  <figcaption style="color: gray; padding-left: 10px;">Photo by Laurencia Soesanto on Unsplash</figcaption>
 	</figure>
 	<!-- ********** //top image ********** -->
@@ -14,8 +14,8 @@
 	<div class="content">
 			<div class="container">
 					<div class="row">
-						<div class="card-deck">
-						   <article  class="card">
+							<div class="card-deck">
+						   	<article  class="card">
 						  		<a href="{{route('taeblo.article6')}}">
 							    <img src="img/tapioca.jpg" class="card-img-top" alt="...">
 							    <div class="card-body">
@@ -23,26 +23,26 @@
 							      <p class="date"><small class="text-muted">2019.07.12</small></p>
 							    </div>
 							   	</a>
-						  </article>
-						    <article  class="card">
-						  		<a href="{{route('taeblo.article5')}}">
-							    <img src="img/bajau_night.jpg" class="card-img-top" alt="...">
-							    <div class="card-body">
-							      <p class="card-text">海の上で暮らすバジャウ族を訪れたら、足がすくんで仕方なかった。</p>
-							      <p class="date"><small class="text-muted">2019.07.12</small></p>
-							    </div>
-							   	</a>
-						  </article>
-						   <article  class="card">
-						  		<a href="{{route('taeblo.article4')}}">
-							    <img src="img/bohol_ocean.jpg" class="card-img-top" alt="...">
-							    <div class="card-body">
-							      <p class="card-text">弾丸でボホールへ行ってみたら、超充実した週末になった。Hard & Happy！</p>
-							      <p class="date"><small class="text-muted">2019.07.12</small></p>
-							    </div>
-							   	</a>
-						  </article>
-						</div>
+						  	</article>
+								<article  class="card">
+									<a href="{{route('taeblo.article5')}}">
+								  <img src="img/bajau_night.jpg" class="card-img-top" alt="...">
+								  <div class="card-body">
+								    <p class="card-text">海の上で暮らすバジャウ族を訪れたら、足がすくんで仕方なかった。</p>
+								    <p class="date"><small class="text-muted">2019.07.12</small></p>
+								  </div>
+								 	</a>
+								</article>
+								<article  class="card">
+									<a href="{{route('taeblo.article4')}}">
+								  <img src="img/bohol_ocean.jpg" class="card-img-top" alt="...">
+								  <div class="card-body">
+								    <p class="card-text">弾丸でボホールへ行ってみたら、超充実した週末になった。Hard & Happy！</p>
+								    <p class="date"><small class="text-muted">2019.07.12</small></p>
+								  </div>
+								 	</a>
+								</article>
+							</div>
 					</div>
 
 					<div class="row">
